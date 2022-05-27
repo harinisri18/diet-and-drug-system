@@ -47,7 +47,8 @@ Recommendation on the basis of users past/recent activity
 neighbors).  
 The project aims at creating a personalized diet recommendation system based on the input of the user.The project uses custom created dataset containing values for nutrients and calories.User can input values named height,weight and age using a customized GUI built using python's Tkinter Library.Machine learning model was implemented using k-means clustering and random-forest classifer for clustering and classification of the food items.
 
-FLOW FOR PROJECT FOR DRUG SYSTEM:
+FLOW FOR PROJECT FOR DRUG SYSTEM:     
+
 First Step: I've imported the patient's data set that has attributes about the patient and the most appropriate drug for them.     
 Second Step: I've analyzed the data by checking its data quality: missing values, outliers, data format, etc. After this, I've visualized  the dataset to extract insights about the data.  
 Third Step: After checking the data quality and visualizing the data set, I've have pre-processed the data set: converted categorical values to numerical values.  
