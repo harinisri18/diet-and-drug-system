@@ -37,28 +37,27 @@ of their conditions along with diet and drug to be taken .
 
 FLOW FOR PROJECT FOR MEAL AND DIET SYSTEM :
 
-Data collection - data is collected by web scraping
-Data processing - data is processed and required attributes are added to make demo datasets.
-User's profile generation by taking input from them .
-Initial recommendation on the basis of user's profile (Contentbased,implemented by k-nearest neighbors).
-Recommendation based on similar profiles to users.
-Recommendation on the basis of users past/recent activity 
+Data collection - data is collected by web scraping                  
+Data processing - data is processed and required attributes are added to make demo datasets.            
+User's profile generation by taking input from them .           
+Initial recommendation on the basis of user's profile (Content  based,implemented by k-nearest neighbors).    
+Recommendation based on similar profiles to users.   
+Recommendation on the basis of users past/recent activity   
 (Collaborative Memory based approach,implemented by K-nearest 
-neighbors).
-The project aims at creating a personalized diet recommendation system based on the input of the user.The project uses custom created dataset containing values for nutrients and calories.User can 
-input values named height,weight and age using a customized GUI built using python's Tkinter Library.Machine learning model was implemented using k-means clustering and random-forest classifer 
-for clustering and classification of the food items.
+neighbors).  
+The project aims at creating a personalized diet recommendation system based on the input of the user.The project uses custom created dataset containing values for nutrients and calories.User can input values named height,weight and age using a customized GUI built using python's Tkinter Library.Machine learning model was implemented using k-means clustering and random-forest classifer for clustering and classification of the food items.
 
 FLOW FOR PROJECT FOR DRUG SYSTEM:
-First Step: I've imported the patient's data set that has attributes about the patient and the most appropriate drug for them.  
-Second Step: I've analyzed the data by checking its data quality: missing values, outliers, data format, etc. After this, I've visualized  the dataset to extract insights about the data.
-Third Step: After checking the data quality and visualizing the data set, I've have pre-processed the data set: converted categorical values to numerical values.
-Fourth Step: I've have then created two subsets from the orginal data set called:
-X_train: Used to train the Machine Learning Models X_test: Used to test the performance of the trained models 
+First Step: I've imported the patient's data set that has attributes about the patient and the most appropriate drug for them.     
+Second Step: I've analyzed the data by checking its data quality: missing values, outliers, data format, etc. After this, I've visualized  the dataset to extract insights about the data.  
+Third Step: After checking the data quality and visualizing the data set, I've have pre-processed the data set: converted categorical values to numerical values.  
+Fourth Step: I've have then created two subsets from the orginal data set called: 
+X_train: Used to train the Machine Learning Models  
+X_test: Used to test the performance of the trained models     
 Fifth Step: Trained 3 Classifier Models: Bagging Classifier and Decision Tree Classifier model. Checked the trained model's performance using the X_test 
-set.
-Sixth Step: Since all the models performed really well and achieved an accuracy score of 100%, I chose decision tree classifier model and saved it in the pickle format using joblib.
+set.  
+Sixth Step: Since all the models performed really well and achieved an accuracy score of 100%, I chose decision tree classifier model and saved it in the pickle format using joblib.  
 Seventh Step: Created a front-end app using HTML and CSS and integrated the pickle file with the app using the flask framework.I have 
-stopped with building of front end .
+stopped with building of front end .   
 
 Thank you !
